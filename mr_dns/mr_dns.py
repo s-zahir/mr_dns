@@ -1,5 +1,4 @@
 # mr_dns_tool/mr_dns/mr_dns.py
-
 import dns.resolver
 import requests
 import whois
@@ -145,3 +144,6 @@ def main():
     gather_domain_info(args.domain)
 
 main()
+
+
+
